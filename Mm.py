@@ -14,7 +14,7 @@ def respond(update, context):
         update.message.reply_text('मुझे समझ नहीं आया, कुछ और पूछो!')
 
 def main():
-    updater = Updater("7839163239:AAHagtBWiORmaMRhun262s_hybeT4oeL1WI", use_context=True)
+    updater = Updater("8368461118:AAGOJMK4UPJRSmWqNgGcAs1iNV9eP2KihOo", use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
